@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_13144721f74e4f66b74e3fc1664f18fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_13144721f74e4f66b74e3fc1664f18fa" ></div>
+        
+</body>
+<script>    
+    
+            var map_13144721f74e4f66b74e3fc1664f18fa = L.map(
+                "map_13144721f74e4f66b74e3fc1664f18fa",
+                {
+                    center: [23.0218734, 72.5984903],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 9,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_b8a8e8bd5ff04ae58703da1d8d8c9ff5 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_13144721f74e4f66b74e3fc1664f18fa);
+        
+    
+            var marker_9d9b06c78a514133ab76388939b03be9 = L.marker(
+                [23.0218734, 72.5984903],
+                {}
+            ).addTo(map_13144721f74e4f66b74e3fc1664f18fa);
+        
+    
+        var popup_3b257b3837c4408a811800dec0e03489 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_86c2afab6fbd498cb8b12513b0de6be4 = $(`<div id="html_86c2afab6fbd498cb8b12513b0de6be4" style="width: 100.0%; height: 100.0%;">Ahmedabad Local, Gujarat</div>`)[0];
+            popup_3b257b3837c4408a811800dec0e03489.setContent(html_86c2afab6fbd498cb8b12513b0de6be4);
+        
+
+        marker_9d9b06c78a514133ab76388939b03be9.bindPopup(popup_3b257b3837c4408a811800dec0e03489)
+        ;
+
+        
+    
+</script>
